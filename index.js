@@ -1,33 +1,34 @@
-// Observing Document Object
-console.log(document);
-console.log(document.all);
-console.log(document.all[1]);
-console.log(document.all[7]);
-console.log(document.all.length);
-console.log(document.domain);
-console.log(document.URL);
-console.log(document.doctype);
-console.log(document.head);
-console.log(document.body);
-console.log(document.charset);
-console.log(document.contentType);
+// /************* Observing Document Object *********/
 
-console.log(document.body.className);
-console.log(document.body.classList);
+// console.log(document);
+// console.log(document.all);
+// console.log(document.all[1]);
+// console.log(document.all[7]);
+// console.log(document.all.length);
+// console.log(document.domain);
+// console.log(document.URL);
+// console.log(document.doctype);
+// console.log(document.head);
+// console.log(document.body);
+// console.log(document.charset);
+// console.log(document.contentType);
 
-console.log(document.forms);
-console.log(document.forms[0]);
-console.log(document.forms[0].id);
-console.log(document.forms[0].className);
-console.log(document.forms[0].action);
-console.log(document.forms[0].method);
+// console.log(document.body.className);
+// console.log(document.body.classList);
 
-console.log(document.links);
+// console.log(document.forms);
+// console.log(document.forms[0]);
+// console.log(document.forms[0].id);
+// console.log(document.forms[0].className);
+// console.log(document.forms[0].action);
+// console.log(document.forms[0].method);
 
-console.log(document.scripts);
-console.log(document.scripts[3].getAttribute('src'));
+// console.log(document.links);
 
-let scripts = Array.from(document.scripts);
-console.log(scripts);
+// console.log(document.scripts);
+// console.log(document.scripts[3].getAttribute('src'));
 
-scripts.forEach((script) => console.log(script.getAttribute('src')));
+// let scripts = Array.from(document.scripts);
+// console.log(scripts);
+
+// scripts.forEach((script) => console.log(script.getAttribute('src')));
